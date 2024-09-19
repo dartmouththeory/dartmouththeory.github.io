@@ -205,3 +205,35 @@ div#publist ol li a{
     color:teal;
     text-decoration:none;
 }
+
+table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1.5px solid;
+}
+
+th#date {
+    width: 15%;
+}
+
+th#speaker {
+    width: 25%;
+}
+
+th#title {
+    width: 60%;
+}
+
+th {
+    font-weight: bold;
+    font-size: normal;
+    border-bottom: 1.5px solid;
+}
+
+th, td {
+    border-left: 1.5px solid;
+    padding: 8px;
+} 
+
+tr:nth-child(even) {background-color: #f2f2f2;} 
